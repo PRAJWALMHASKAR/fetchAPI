@@ -27,23 +27,34 @@ ul {
 .square {
     font-size: 10px;
     margin: 20px;
+    margin-bottom: 50px;
     float: left;
-    width: 200px;
+    width: 300px;
     height: 200px;
     shape-outside: inset(20px 5px 30px 10px round 50px);
     background: lightblue;
-    display: flex;
+    /* display: flex;
     align-items: end;
-    justify-content: center;
+    justify-content: center; */
     border: 5px solid;
     border-color: rgb(200, 200, 245);
+    /* padding-top: 20px; */
 }
 
+img {
+    opacity: 0.5;
+}
 
+img:hover {
+    opacity: 1;
+}
 
-
-
-
+.image_Data_text {
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    font-size: 20px;
+}
 
 
 
